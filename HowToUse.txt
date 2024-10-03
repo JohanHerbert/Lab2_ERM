@@ -1,0 +1,89 @@
+In this file we write how to do things
+
+Terminal
+    Change directory by going into a new folder: cd <folder name>
+    Go back up the file tree: cd ..
+    View the current directory: dir or ls
+
+Virtual environment 
+    To create a venv: python -m venv myenv
+    To activate a venv: myenv/Scripts/activate
+
+Pip installations 
+    To install the dependencies in requirements.txt: pip install -r requirements.txt
+    To install library that is not in requirements: pip install <library name>
+    To save the newly added libraries to the requirements file: pip freeze > requirements.txt
+
+Git 
+    Initiate a new git repository: git init 
+    To download a github repository to your current folder: git clone https://github.com/example-user/example-repo.git
+
+    To set a github repository for your local git repo: git remote add origin https://github.com/your-username/your-repository.git
+    Check that remote has been added correctly: git remote -v 
+
+    To check what/where things have changed since your latest commit: git status
+    Add file to staging environment: git add filename
+    Add all changes since last commit to staging environment: git add .
+    To remove all files from your staging environment: git reset
+    To remove one file from staging environment: git reset <filename>
+    
+    To save changes you have made and staged in a branch: git commit -m "Commit message"
+    Push your current branch to github to the branch branch-name: git push origin branch-name
+    To see all your branches: git branch
+    To create a new branch: git branch branch-name
+    To delete a branch: git branch -d branch-name (Use -D if you have uncommitted changes in the branch but want to delete anyways)
+    To go to a branch: git checkout branch-name
+    To create and go to new branch: git checkout -b new-branch-name
+    To merge the branch you are in with the specified branch: git merge branch-name
+    To see a list of commits: git log
+    To see difference between branches (have never used): git diff
+
+    To get the current version of the github repo to your current branch: git pull (only do this in your main branch then merge this into your curren working branch create a new branch )
+    
+
+'jvjdvjd v jd fvjka dfjkvndjkvfnf'
+
+
+Workflow git
+    0.1. Get a cloned version of the github repo to your computer
+    0.2. Set remote upstream     
+
+    1. Update your main branch
+    2. Create new branch (prefferably with some name that is indicative of what you do in the branch)
+    3. Switch to new branch
+    4. Work on project and do commits now and then
+    5. Push to github to a branch with the same name as your branch 
+    6. Create Pull request (means that you ask to merge your changes into the main branch )
+    7. Go to main branch locally and do git pull
+    8. Go to step 2 again 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
